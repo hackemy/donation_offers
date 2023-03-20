@@ -1,0 +1,85 @@
+{
+  "donation_amount_cents": "$10",
+  "offer": "Lotta Lautsuo (Co-Founder, Head of Product, Givsly) is committed to giving back. To show our appreciation, Givsly is making a nonprofit donation. Simply select a nonprofit to receive a $10.00 donation and fill out the brief form below. Thanks for doing good business!",
+  "npos": [
+    {
+      "npo_id": "childmind.org",
+      "npo_url": "https://www.givsly.com/l/62573998-1095-44bb-bb74-bc214e4eb968",
+      "img_url": "https://sharetribe.imgix.net/5ddeb892-c6e3-4616-a67c-9a3008f3d302/62573b4d-a700-4edb-b7fc-24cc84c620f4?auto=format&crop=edges&fit=crop&h=480&w=480&s=825d30e2093647534ab6a39cfc0ca65f",
+      "name": "Child Mind Institute",
+      "cat": "Health",
+      "impact": "1 appointment",
+      "impact_desc": "for a child who would otherwise have no access to mental health care and treatment"
+    },
+    {
+      "npo_id": "wck.org",
+      "npo_url": "https://www.givsly.com/l/614112e3-1821-4ab6-9834-d0243f33984c",
+      "img_url": "https://sharetribe.imgix.net/5ddeb892-c6e3-4616-a67c-9a3008f3d302/614a2817-81d9-46a6-866a-599af5b2e9df?auto=format&crop=edges&fit=crop&h=480&w=480&s=f39d54b9943557fefd9434c2b437f10d",
+      "name": "World Central Kitchen",
+      "cat": "International Development and Relief Services",
+      "impact": "33 meals",
+      "impact_desc": "for international communities impacted by natural disasters"
+    },
+    {
+      "npo_id": "rainn.org",
+      "npo_url": "https://www.givsly.com/l/60d2000e-62ba-48f2-babd-2b8ce52f871d",
+      "img_url": "https://sharetribe.imgix.net/5ddeb892-c6e3-4616-a67c-9a3008f3d302/60d20657-104d-4211-aa7d-8f076fd8a2b4?auto=format&crop=edges&fit=crop&h=480&w=480&s=b75c496c54ddd0ef7081631010f43fbd",
+      "name": "RAINN (Rape, Abuse & Incest National Network)",
+      "cat": "Human Services",
+      "impact": "4 hours of hope and healing",
+      "impact_desc": "for a hotline visitor"
+    }
+  ],
+  "fields": [
+    [
+      {
+        "name": "First name",
+        "placeholder": "John",
+        "id": "name",
+        "type": "text",
+        "error": "Please enter your first name"
+      },
+      {
+        "name": "Last name",
+        "placeholder": "Smith",
+        "id": "lastName",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "name": "Business email",
+        "placeholder": "john@example.com",
+        "id": "email",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "name": "Company",
+        "placeholder": "Write your company here...",
+        "id": "company",
+        "type": "text",
+        "optional": true
+      },
+      {
+        "name": "Business title",
+        "placeholder": "Write your title here...",
+        "id": "businessTitle",
+        "type": "text",
+        "optional": true
+
+      }
+    ],
+
+    [
+      {
+        "name": "Message",
+        "placeholder": "Include a message to the Donation Offer sender",
+        "id": "msg",
+        "type": "text"
+      }
+    ]
+
+  ]
+}
